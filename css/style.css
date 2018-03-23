@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
+
+*, ul {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.clearfix {
+    clear: both;
+    overflow: auto;
+}
+
+h1 {
+    margin-top: 20px;
+}
+
+span {
+    color: red;
+}
+
+li {
+    display: inline-block;
+    float: right;
+    margin-right: 10px;
+    margin-top: 10px;
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+}
+
+li:first-child {
+    margin-left: 10px;
+}
+
+li:nth-child(-n+3) {
+    float: left;
+}
+
+.basicStructure {
+    border: 1px solid #cccccc;
+    height: 80vh;
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 50px;
+    position: relative;
+}
+
+.carCard {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.row {
+    margin-top: 15px;
+}
+
+.car {
+    height: 300px;
+    width: 210px;
+    background-color: #fff;
+    float: left;
+    display: inline-block;
+    margin: 0 15px;
+    overflow: hidden;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-size: 0;
+}
+
+.car > img {
+    height: 250px;
+    width: 210px;
+    object-fit: cover;
+    object-position: center center;
+}
+
+.description {
+    text-align: center;
+    line-height: 50px;
+    font-size: 16px;
+}
+
+#floatRight {
+    float: right;
+}
+
+.contactus {
+    height: 350px;
+    width: 250px;
+    background-color: #fff;
+    position: absolute;
+    border-radius: 10px 10px 0 0;
+    border: 1px solid #ccc;
+    border-width: 1px 1px 0 1px;
+    right: 30px;
+    bottom: 0;
+}
+
+.contactus > img {
+    height: 300px;
+    width: 100%;
+    object-fit: scale-down;
+    font-size: 0;
+}
+
+.close {
+    position: absolute;
+    top: 2px;
+    right: 7px;
+    font-weight: 700;
+
+}
